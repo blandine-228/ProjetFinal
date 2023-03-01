@@ -106,4 +106,26 @@ span {
   color: #fff;
 }
 
+.icons div:hover {
+  color: #fff;
+  background: #C5CF4B;
+}
+
+.icons {
+  display: flex;
+}
+
+#search-btn img {
+  width: 2.5em;
+}
+
+#cart-btn img {
+  width: 2.5em;
+}
+
+#login-btn img {
+  width: 2.5em;
+  height: 2.5em;
+}
+
 /*# sourceMappingURL=main.css.map */
