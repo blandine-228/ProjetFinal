@@ -323,6 +323,139 @@ section {
   color: #C5CF4B;
 }
 
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.home .content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 41rem;
+  flex: 1 1 41rem;
+}
+
+.home .content span {
+  font-size: 6rem;
+  color: #E7AE5A;
+  font-family: "Satisfy", cursive;
+}
+
+.home .content h3 {
+  font-size: 3.5rem;
+  color: #000000;
+  padding-top: 1rem;
+}
+
+.home .image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 41rem;
+  flex: 1 1 41rem;
+  margin: 2rem 0;
+  pointer-events: none;
+}
+
+.home .image .home-img {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.home .home-parallax-img {
+  position: absolute;
+  top: -10rem;
+  right: -10rem;
+  width: 80vw;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.8rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: rgb(10, 9, 9);
+  background: #C5CF4B;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  background: #130f40;
+  color: #fff;
+}
+
+/*Category */
+.category {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(16rem, 1fr) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+.category .box {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  background: #f7f7f7;
+}
+
+.category .box:hover {
+  background: #C5CF4B;
+}
+
+.category .box:hover h3 {
+  color: #fff;
+}
+
+.category .box img {
+  height: 7rem;
+}
+
+.category .box h3 {
+  font-size: 1.8rem;
+  color: #130f40;
+}
+
+.content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
+}
+
+.content .title {
+  font-size: 3rem;
+  padding-top: 0.5rem;
+  color: #130f40;
+}
+
+.content .icons-container {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.content .icons-container .icons {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 20rem;
+  flex: 1 1 20rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+
 /* LOGIN FORM */
 .login-form-container {
   position: fixed;
@@ -378,6 +511,181 @@ section {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.heading h3 {
+  font-size: 3rem;
+  color: #130f40;
+}
+
+/*popular*/
+.popular .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(25rem, 1fr) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.box {
+  border-radius: 0.5rem;
+  position: relative;
+  background: #f7f7f7;
+  padding: 2rem;
+  text-align: center;
+}
+
+.box img.heart {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+  width: 3em;
+}
+
+.box img.heart:hover {
+  fill: red;
+}
+
+.box .image {
+  margin: 1rem 0;
+}
+
+.box .image img {
+  height: 15rem;
+}
+
+.box .content h3 {
+  font-size: 2rem;
+  color: #130f40;
+}
+
+.box .content img.stars {
+  padding: 1rem 0;
+  width: 1.7rem;
+}
+
+.box .content img.stars:hover {
+  cursor: pointer;
+}
+
+.box .content .stars span {
+  color: #666;
+  font-size: 2rem;
+}
+
+.box .content .price {
+  font-size: 2rem;
+  color: #130f40;
+}
+
+.banner h1 {
+  font-family: "Satisfy", cursive;
+  color: #E7AE5A;
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  padding: 1em;
+}
+
+.banner .row-banner {
+  background: #726F63 no-repeat;
+  height: 45rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 2em;
+}
+
+.banner .row-banner .content {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.banner .row-banner .content span {
+  font-family: "Satisfy", cursive;
+  font-size: 6rem;
+  color: #130f40;
+}
+
+.banner .row-banner .content h3 {
+  font-size: 6rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.banner .row-banner .content p {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.banner .grid-banner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(30rem, 1fr) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2.5rem;
+  padding: 1em 0;
+}
+
+.banner .grid-banner .grid {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 45rem;
+}
+
+.banner .grid-banner .grid:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.banner .grid-banner .grid img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.banner .grid-banner .grid .content {
+  position: absolute;
+  top: 2rem;
+  padding: 0 2rem;
+}
+
+.banner .grid-banner .grid .content.center {
+  text-align: center;
+  width: 100%;
+}
+
+.banner .grid-banner .grid .content.center span {
+  color: #666;
+}
+
+.banner .grid-banner .grid .content.center h3 {
+  color: #130f40;
+}
+
+.banner .grid-banner .grid .content span {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.banner .grid-banner .grid .content h3 {
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 0.5rem;
   gap: 0.5rem;
 }
 
@@ -406,6 +714,7 @@ section {
 .login-form-container form p a:hover {
   color: #130f40;
   text-decoration: underline;
+
 }
 
 /*# sourceMappingURL=main.css.map */
