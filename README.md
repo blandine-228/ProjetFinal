@@ -5,10 +5,10 @@ TP final outils de versionning git
 
 
 
-## Authors
+## Autteurs
 
 - [blandine ALOMATSI](https://github.com/blandine-228)
-- [john-998](https://github.com/blandine-228)
+- [john-998](https://github.com/john-998)
 
 
 ## Annex
@@ -17,11 +17,11 @@ Any additional information goes here
 
 ## Contributing
 
-Contributions are always welcome!
+Les contributions sont toujours les bienvenues !
 
-See `contributing.md` for ways to get started.
+Voir `contributing.md` for ways to get started.
 
-Please adhere to this project's `code of conduct`.
+Veuillez adhérer au  `code of conduct` de ce projet.
 
 
 ## Demo
@@ -36,14 +36,14 @@ Insert gif or link to demo
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Bascule du mode clair/foncé
+- Prévisualisation en direct
+- Mode plein écran
+
 
 
 ## 🚀 About Me
-Sui etudiante en informatique à Esgi
+Suis etudiante en informatique à Esgi
 
 
 ## Used By
