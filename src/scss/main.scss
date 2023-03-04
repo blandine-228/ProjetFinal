@@ -1,0 +1,43 @@
+@import 'partials/variables';
+@import 'partials/fonts';
+@import 'partials/functions';
+@import 'partials/globals';
+
+
+//component 
+@import 'components/header';
+@import 'components/button';
+@import 'components/navbar';
+
+@import 'components/icons';
+@import 'components/img';
+@import 'components/buttons/menu-btn';
+@import 'components/buttons/search-btn';
+@import 'components/buttons/cart-btn';
+@import 'components/buttons/login-btn';
+@import 'components/section';
+@import 'components/search-form-container';
+@import 'components/shopping-cart-container';
+
+@import 'components/login';
+@import 'components/menu/box-container';
+@import 'components/menu/box';
+
+
+@import 'components/home';
+@import 'components/button';
+@import 'components/category';
+
+@import 'components/content';
+@import 'components/popular/heading';
+@import 'components/popular/box-container';
+@import 'components/popular/box';
+@import 'components/banner';
+@import 'components/order';
+@import 'components/blog';
+
+
+
+@import 'components/login';
+
+
