@@ -31,6 +31,7 @@ Insert gif or link to demo
 
 ## Documentation
 
+
 [Documentation](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 [Documentation](https://www.gitkraken.com/blog/gitflow)
@@ -54,7 +55,5 @@ This project is used by the following companies:
 
 - Company 1
 - Company 2
-
-
 
 
