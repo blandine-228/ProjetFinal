@@ -31,7 +31,10 @@ Insert gif or link to demo
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+
+[Documentation](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+[Documentation](https://www.gitkraken.com/blog/gitflow)
 
 
 ## Features
